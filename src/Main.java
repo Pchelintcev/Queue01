@@ -10,15 +10,15 @@ public class Main {
         Person Sasha = new Person("Итальянский", "Умберто", "Эко", 2);
         Person Lev = new Person("Американский", "Эрнест", "Хемингуэй", 6);
 
-        ArrayList<Person> russian = new ArrayList<>();
+        ArrayList<Person> writers = new ArrayList<>();
 
-        russian.add(Misha);
-        russian.add(Boris);
-        russian.add(Vanya);
-        russian.add(Sasha);
-        russian.add(Lev);
+        writers.add(Misha);
+        writers.add(Boris);
+        writers.add(Vanya);
+        writers.add(Sasha);
+        writers.add(Lev);
 
-        return russian;
+        return writers;
     }
 
     public static void main(String[] args) {
